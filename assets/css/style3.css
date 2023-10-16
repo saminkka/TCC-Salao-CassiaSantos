@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F5F5F5;
+}
+
+
+#container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+#login_form {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 8px;
+    gap: 30px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.212);
+}
+
+/* Form Header */
+#form_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#form_header h1 {
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 4px solid #8C6F56;
+  border-radius: 2px;
+}
+
+#mode_icon {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Inputs */
+#inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fff;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input::placeholder {
+    color: #000000be;
+}
+.input-box .input-field {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 14px;
+}
+
+.input-box input:hover {
+    background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible {
+    outline: 1px solid #8C6F56;
+}
+
+.input-box label {
+    font-size: 19px;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 3px;;
+    cursor: text;
+}
+
+.input-field i {
+    font-size: 18px;
+    cursor: text;
+    color: #8C6F56;
+} 
+
+.input-field input {
+    border: none;
+    width: 260px;
+    background-color: transparent;
+    font-size: 18px;
+    padding: 0px 5px;
+}
+
+.input-field input:focus {
+    outline: none;
+}
+
+/* Esqueceu a senha e Cadastro */
+#forgot_password a,
+#cadastrar a {
+    text-decoration: none;
+    color: #8C6F56;
+    font-size: 14px;
+}
+
+#forgot_password a:hover,
+#cadastrar a:hover {
+    color: #593E2E;
+}
+
+
+/* Login Button */
+#login_button {
+    border: none;
+    background: #8C6F56;
+    padding: 7px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+#login_button:hover {
+    transform: scale(1.05);
+    background: #593E2E;
+}
+
+.back-button button {
+    border: none;
+    background-color: #8C6F56;
+    padding: 7px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.back-button button:hover {
+    background-color: #593E2E;
+    transform: scale(1.05);
+}
+
+.back-button button a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+@media screen and (max-width: 400px) {
+    #login_form {
+    height: auto;
+    width: 100%;
+    display: flex;
+    }
+    .input-box  {
+    height: auto;
+    width: 90%;
+    display: flex;
+    align-self: center;
+    }
+}
