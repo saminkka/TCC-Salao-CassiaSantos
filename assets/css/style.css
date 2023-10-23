@@ -41,7 +41,7 @@ body {
   top: 0px;
   z-index: 900;
   background: transparent;
-  filter: brightness(0.8);
+  filter: brightness(0.4) ;
 }
 
 .header-content{
