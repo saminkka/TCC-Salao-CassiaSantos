@@ -204,6 +204,7 @@ main{
   align-items: center;
   justify-content: center;
   min-height: 100%;
+  margin-top: 20px;
 }
 .card_container {
   display: grid;
