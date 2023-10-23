@@ -21,6 +21,9 @@ main{
     background-color: #f5f5f5;
     box-shadow: 0 30px 50px #c4c4c4;
 }
+.slider-item background-image{
+width:100%;
+}
 
 #slide{
     width: 100%;
