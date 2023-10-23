@@ -40,8 +40,7 @@ body {
   transition: all 0.5s;
   top: 0px;
   z-index: 900;
-  background: transparent;
-  filter: brightness(0.4) ;
+  background: rgba(24, 24, 24, 0.2);
 }
 
 .header-content{
