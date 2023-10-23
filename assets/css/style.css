@@ -168,7 +168,7 @@ body {
   .mobile {
     display: block;
     cursor: pointer !important;
-    padding-left: 10px;
+    padding: 10px;
     z-index: 1000;
 }
 
