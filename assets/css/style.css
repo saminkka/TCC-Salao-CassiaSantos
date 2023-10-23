@@ -198,26 +198,6 @@ body {
   }
 }
 
-/*Escrita*/
-
-h1 {
-  color: white;
-}
-
-
-
-
-#hero {
-  background: liner-gradiente(#FFFFFF, #FFFFFF), url();
-    min-height: 100vh;
-    background-position: center;
-    background-size: cover;
-    
-}
-
-
-
-
 /*HOOTER*/
   :root {
     --color-neutral-0: #000000;
