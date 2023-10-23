@@ -198,37 +198,14 @@ body {
   }
 }
 
-/*MAIN*/
-main{
-  display: flex;
-  padding: 0;
-  align-items: center;
-  justify-content: center;
-  min-height: 100%;
-  margin-top: 20px;
-}
-.card_container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-gap: 30px; 
-  padding: 20px 80px;
-  font-size: 16px;
-  color: #181818;
-  width: 100%;
-  top: 400px;
-  bottom: 3000px;
+/*Escrita*/
+
+section {
+  padding-top: 160px;
+  padding-bottom: 160px;
 }
 
-/*CARD*/
-@media (max-width: 750px) {
-  .card_container {
-    grid-template-columns: repeat(1, 1fr); /* 1 cartão por linha em telas menores */
-  }
-  .card {
-    max-width: 100%;
-    width: 100%;
-  }
-}
+
 
 
 /*HOOTER*/
