@@ -121,6 +121,11 @@ body {
   filter: brightness(0.6);
 }
 
+.home{
+  height: 100mv;
+  weight: 100%
+}
+
 .mobile {
   display: none;
 }
