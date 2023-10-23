@@ -200,10 +200,19 @@ body {
 
 /*Escrita*/
 
-section {
-  padding-top: 160px;
-  padding-bottom: 160px;
-  color: #FFFFFF;
+h1 {
+  color: white;
+}
+
+
+
+
+#hero {
+  background: liner-gradiente(#FFFFFF, #FFFFFF), url();
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    
 }
 
 
