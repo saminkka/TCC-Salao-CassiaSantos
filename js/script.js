@@ -116,13 +116,3 @@ document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("scroll", infiniteScroll);
 wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
 wrapper.addEventListener("mouseleave", autoPlay);
-
-//SLIDER CUIDADOS
-document.getElementById('next').onclick = function(){
-    let lists = document.querySelectorAll('.slider-item');
-    document.getElementById('slide').appendChild(lists[0]);
-}
-document.getElementById('prev').onclick = function(){
-    let lists = document.querySelectorAll('.slider-item');
-    document.getElementById('slide').prepend(lists[lists.length - 1]);
-}
