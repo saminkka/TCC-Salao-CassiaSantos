@@ -77,26 +77,11 @@ body {
   color: whitesmoke;
 }
 .nav_item {
-  column-gap: 40px;
+  column-gap: 80px;
 }
 .nav_link:hover,
 .nav_link:focus {
   color: #593E2E;
-}
-.button {
-  padding: 6px 24px;
-  border: 2px solid whitesmoke;
-  background: transparent;
-  border-radius: 6px;
-  cursor: pointer;
-}
-.button:hover,
-.button:focus {
-  color: #593E2E;
-  border-color: #593E2E;
-}
-.button:active {
-  transform: scale(0.98);
 }
 
 .home {
