@@ -218,7 +218,7 @@ main{
   font-size: 80px;
   text-transform: capitalize;
   margin-bottom: 20px;
-    font-family: "Asap";
+
 }
 .about-text h5{
   color: black;
@@ -226,7 +226,6 @@ main{
   text-transform: capitalize;
   margin-bottom: 25px;
   letter-spacing: 2px;
-  font-family: "Asap";
 }
 span{
   color: #00000;
@@ -237,13 +236,13 @@ span{
   line-height: 28px;
   font-size: 18px;
   margin-bottom: 45px;
+    font-family: "Asap";
 }
 button{
   background: #00000;
   color: black;
   text-decoration: none;
   border: 2px solid transparent;
-  font-weight: bold;
   padding: 13px 30px;
   border-radius: 30px;
 }
