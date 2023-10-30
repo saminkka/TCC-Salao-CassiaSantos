@@ -189,6 +189,21 @@ main{
     width: 100%;
   }
 }
+
+/*SOBRE*/
+#about {
+}
+#about h6 {
+  color: var (--brand);
+}
+#about h1{
+  margin-top: 16px;
+  margin-bottom:
+}
+
+
+
+
 /*HOOTER*/
   :root {
     --color-neutral-0: #000000;
