@@ -191,26 +191,40 @@ main{
 }
 
 /*SOBRE*/
-#about {
-  position: relative;
+.about{
+  width: 100%;
+  padding: 78px 0px;
+  background-color: #191919;
 }
-#about:: after{
-  content: ;
-  withd: 25%;
-  height: 100%;
-  backgroud-color: var(--brand);
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
+.about im{
+  height: auto;
+  width: 420px;
 }
-#about h3 {
-  color: var (--brand);
+.about-text{
+  width: 550px
 }
-#about h1{
-  margin-top: 16px;
-  margin-bottom: 24px:
+.main{
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: apace-around;
 }
+.about-text h1{
+  color: black;
+  font-size: 80px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.about-text h5{
+  color: black;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
 
 
 
