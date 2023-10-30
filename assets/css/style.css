@@ -199,6 +199,7 @@ main{
 .about img{
   height: auto;
   width: 420px;
+  z-index: 2;
 }
 .about-text{
   width: 550px
