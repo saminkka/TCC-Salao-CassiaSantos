@@ -218,6 +218,7 @@ main{
   font-size: 80px;
   text-transform: capitalize;
   margin-bottom: 20px;
+    font-family: "Asap";
 }
 .about-text h5{
   color: black;
