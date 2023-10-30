@@ -211,7 +211,7 @@ main{
   align-items: center;
   justify-content: apace-around;
 }
-.about-text h1{
+.about-text h2{
   color: black;
   font-size: 80px;
   text-transform: capitalize;
