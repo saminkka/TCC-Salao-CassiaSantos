@@ -194,7 +194,7 @@ main{
 .about{
   width: 100%;
   padding: 78px 0px;
-  background-color: transparent;
+  background-color: solid white;
 }
 .about im{
   height: auto;
