@@ -192,13 +192,24 @@ main{
 
 /*SOBRE*/
 #about {
+  position: relative;
 }
-#about h6 {
+#about:: after{
+  content: ;
+  withd: 25%;
+  height: 100%;
+  backgroud-color: var(--brand);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+#about h3 {
   color: var (--brand);
 }
 #about h1{
   margin-top: 16px;
-  margin-bottom:
+  margin-bottom: 24px:
 }
 
 
