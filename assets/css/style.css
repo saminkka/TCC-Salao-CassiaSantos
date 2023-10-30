@@ -168,7 +168,6 @@ main{
   justify-content: center;
   min-height: 100%;
   margin-top: 20px;
-  font-family: "asap";
 }
 .card_container {
   display: grid;
@@ -226,6 +225,7 @@ main{
   text-transform: capitalize;
   margin-bottom: 25px;
   letter-spacing: 2px;
+  font-family: "Asap";
 }
 
 
