@@ -167,6 +167,7 @@ main{
   justify-content: center;
   min-height: 100%;
   margin-top: 20px;
+  position: fixed;
 }
 .card_container {
   display: grid;
