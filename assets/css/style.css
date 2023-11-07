@@ -71,8 +71,6 @@ body {
   justify-content: space-between;
 }
 .nav_logo,
-.nav_link,
-.button {
 .nav_link {
   font-size: 20px;
   color: whitesmoke;
@@ -190,6 +188,9 @@ main{
     width: 100%;
   }
 }
+
+
+
 /*HOOTER*/
   :root {
     --color-neutral-0: #000000;
