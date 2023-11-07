@@ -228,10 +228,10 @@ main{
   letter-spacing: 2px;
 }
 span{
-  color: #00000;
+  color: #0000;
 }
 .about-text p{
-  color: #00000;
+  color: #0000;
   letter-spacing: 1px;
   line-height: 28px;
   font-size: 18px;
@@ -239,7 +239,7 @@ span{
     font-family: "Asap";
 }
 button{
-  background: #00000;
+  background: #0000;
   color: black;
   text-decoration: none;
   border: 2px solid transparent;
