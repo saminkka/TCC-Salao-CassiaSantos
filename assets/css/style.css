@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Asap:wght@100;300&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -72,6 +71,8 @@ body {
   justify-content: space-between;
 }
 .nav_logo,
+.nav_link,
+.button {
 .nav_link {
   font-size: 20px;
   color: whitesmoke;
@@ -83,7 +84,6 @@ body {
 .nav_link:focus {
   color: #593E2E;
 }
-
 .home {
   position: relative;
   height: 100vh;
@@ -190,9 +190,6 @@ main{
     width: 100%;
   }
 }
-
-
-
 /*HOOTER*/
   :root {
     --color-neutral-0: #000000;
