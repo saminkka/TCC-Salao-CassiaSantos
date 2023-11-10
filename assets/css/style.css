@@ -201,7 +201,7 @@ main{
 .about .content img{
   height: auto;
   width: 600px;
-  
+  max-width: 100%;
 }
 .text{
   width: 550px;
