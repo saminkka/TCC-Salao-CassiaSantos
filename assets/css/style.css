@@ -241,7 +241,7 @@ font-family: "Bebas Neue", sans-serif;
   font-family: "Asap", sans-serif;
 }
 button {
-  background-color: #000000;
+  background-color: transparent;
   color: black;
   border: 2px solid transparent;
   text-decoration: none;
