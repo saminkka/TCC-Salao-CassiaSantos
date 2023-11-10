@@ -217,20 +217,20 @@ main{
   justify-content: space-around;
 }
 .text h1{
-color: #f5f5f5;
+color: #000000;
 font-size: 85px;
 margin-bottom: 20px;
 text-transform: capitalize;
 }
 .text h5 {
-  color: white;
+  color: black;
   font-size: 25px;
   margin-bottom: 25px;
   text-transform: capitalize;
   letter-spacing: 2px;
 }
 .text p {
-  color: #f5f5f5;
+  color: #000000;
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 1px;
