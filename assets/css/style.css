@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -221,6 +222,7 @@ color: #000000;
 font-size: 85px;
 margin-bottom: 20px;
 text-transform: capitalize;
+font-family: "Bebas Neue", sans-serif;
 }
 .text h5 {
   color: black;
@@ -228,6 +230,7 @@ text-transform: capitalize;
   margin-bottom: 25px;
   text-transform: capitalize;
   letter-spacing: 2px;
+  font-family: "Bebas Neue", sans-serif;
 }
 .text p {
   color: #000000;
@@ -235,6 +238,7 @@ text-transform: capitalize;
   line-height: 28px;
   letter-spacing: 1px;
   margin-bottom: 45px;
+  font-family: "Asap", sans-serif;
 }
 button {
   background-color: #000000;
