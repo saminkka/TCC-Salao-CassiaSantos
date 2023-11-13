@@ -311,7 +311,7 @@ button:hover{
   display: block;
   text-align: center;
   margin: 25px 0px;
-  color: #8B4513;
+  color: #593E2E;
 }
 h6 {
   color: black;
@@ -336,7 +336,7 @@ h6 {
 }
 .card .button:hover{
   background-color: transparent;
-  border: 2px solid #B8860B;
+  border: 2px solid #8C6F56;
   cursor: pointer;
 }
 
