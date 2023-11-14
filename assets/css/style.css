@@ -190,6 +190,39 @@ main{
   }
 }
 
+/*HOME*/
+.home{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.home .content{
+  z-index: 888;
+  color: #fff;
+  width: 70px;
+  margin-top: 50px;
+}
+.home .content h2{
+  font-size: 4em;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 75px;
+  margin-bottom: 40px;
+}
+.home .content h2 span{
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.home .content p {
+  margin-bottom: 65px;
+}
+
+
+
 /*SOBRE*/
 .about{
   width: 100%;
