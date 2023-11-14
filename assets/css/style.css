@@ -220,7 +220,19 @@ main{
 .home .content p {
   margin-bottom: 65px;
 }
+.home .content a{
+  background: #fff;
+  padding: 15px 35px;
+  color: #000;
+  font-size: 1.1em;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 2px;
+}
 
+@media (max-width: 1040px){
+  
+}
 
 
 /*SOBRE*/
