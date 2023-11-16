@@ -157,7 +157,12 @@ h6 {
     transition: all 50ms ease-in;
 }
 
-.card-button:hover
+.card-button:hover{
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #ec615b;
+    font-weight: 800;
+}
 
 
 
