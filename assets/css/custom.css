@@ -242,3 +242,49 @@ h6 {
   cursor: pointer;
 }
 
+.content{
+  max-width: 650px;
+  margin: 60px 100px;
+}
+.content .info h2{
+  color:  #000;
+  font-size: 55px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+  .content .info h2 span {
+    color: #000;
+    font-size: 50px;
+    font-weight: 600;
+  }
+ .content .info p{
+   font-size: 16px;
+   font-weight: 500;
+   marginn-bottom: 40px;
+ }
+.content .info-btn{
+  color: #000;
+  background: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding:  10px 20px;
+  borde-radius: 5px;
+  transition:  0.3s;
+  transition-property: background;
+}
+.content .info-btn:hover{
+  background: #0000FF;
+  
+}
+
+
+
+
+
+
+
