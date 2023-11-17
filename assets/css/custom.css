@@ -242,8 +242,13 @@ h6 {
   cursor: pointer;
 }
 
+ .text {
+   max-width: 650px;
+   margin: 60px 100px;
+ }
 
-.content .info h2{
+
+.text .info h2{
   color:  #000;
   font-size: 55px;
   text-transform: uppercase;
@@ -252,7 +257,7 @@ h6 {
   line-height: 60px;
   margin-bottom: 30px;
 }
-  .content .info h2 span {
+  .text .info h2 span {
     color: #000;
     font-size: 50px;
     font-weight: 600;
@@ -262,7 +267,7 @@ h6 {
    font-weight: 500;
    marginn-bottom: 40px;
  }
-.content .info-btn{
+.text .info-btn{
   color: #000;
   background: #fff;
   text-decoration: none;
@@ -274,7 +279,7 @@ h6 {
   transition:  0.3s;
   transition-property: background;
 }
-.content .info-btn:hover{
+.text .info-btn:hover{
   background: #0000FF;  
 }
 
