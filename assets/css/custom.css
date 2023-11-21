@@ -219,7 +219,8 @@ h7 {
   color: black;
   font-size: 35px;
   margin-bottom: 15px;
-   margin: 30px auto;
+  margin: 30px auto;
+  font-family: "Bebas Neue", sans-serif;
 }
 .pra p{
   color: ##D2691E;
