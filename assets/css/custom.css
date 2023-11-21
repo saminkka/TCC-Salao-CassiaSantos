@@ -217,8 +217,9 @@ button:hover{
 }
 h7 {
   color: black;
-  font-size: 40px;
+  font-size: 35px;
   margin-bottom: 15px;
+   margin: 30px auto;
 }
 .pra p{
   color: ##D2691E;
