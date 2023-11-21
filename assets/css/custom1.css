@@ -40,7 +40,7 @@ main{
 }
 
 .card-wrapper {
-    display: flex;
+    display: 100%;
     flex-direction: column;
     aligh-items: center;
     justify-content: center;
