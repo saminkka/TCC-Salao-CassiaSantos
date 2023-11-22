@@ -247,6 +247,7 @@ h7 {
 /*Home*/
 section {
   padding: 100px 200px;
+  position: left;
 }
 
 .home{
