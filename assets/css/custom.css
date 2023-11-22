@@ -254,8 +254,8 @@ section {
   width: 100%;
   min-height: 100vh;
   display: flex;
-  justify-content: left;
-  flex-direction: column;
+  justify-content: relative;
+  flex-direction: left;
 }
 
 .home .content {
