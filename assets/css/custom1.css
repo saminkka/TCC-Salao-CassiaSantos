@@ -44,8 +44,12 @@ main{
     margin-top: -15px;
 }
 .btn-primary{
-    
+   background-color: black; 
 }
+h3,h5{
+    color: rgb(red, green, blue)
+}
+
 
 
 
