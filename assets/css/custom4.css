@@ -139,6 +139,32 @@ main{
     background-color: #593E2E;
 }
 
+/*Contato*/
+
+body{
+background: linear-graient( 90deg, #0e3959 0%, #0e3959 30%, #03a9f5 30%, #3a9f5 100%);
+}
+
+.contato{
+  position: relative;
+  width: 100%;
+  padding: 40px 100px;
+}
+
+.contato .title{
+  display: flex;
+  justify-content: center;
+  aling-items: center;
+  font-size: 2em;
+}
+
+.contato .title h2{
+  color: #fff;
+  font-weight: 500;
+}
+
+
+
 
 
 
