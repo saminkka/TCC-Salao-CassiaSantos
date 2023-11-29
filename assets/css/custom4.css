@@ -15,7 +15,7 @@ main{
 /*Contato*/
 
 body{
-background: linear-graient( 90deg, #0e3959 0%, #0e3959 30%, #03a9f5 30%, #3a9f5 100%);
+background: linear-graient( 90deg, #0e3959 0%, #0e3959 30%, #03a9f5 30%, #03a9f5 100%);
 }
 
 .contato{
@@ -27,7 +27,7 @@ background: linear-graient( 90deg, #0e3959 0%, #0e3959 30%, #03a9f5 30%, #3a9f5 
 .contato .title{
   display: flex;
   justify-content: center;
-  aling-items: center;
+  align-items: center;
   font-size: 2em;
 }
 
