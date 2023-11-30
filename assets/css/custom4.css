@@ -18,23 +18,248 @@ body{
 background: linear-graient( 90deg, #0e3959 0%, #0e3959 30%, #03a9f5 30%, #03a9f5 100%);
 }
 
-.contato{
-  position: relative;
-  width: 100%;
-  padding: 40px 100px;
-}
+   .contato{
+      position: relative;
+      width: 100%;
+      padding: 40px 100px;
+    }
+    
+    .contato .title{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2em;
+    }
+    
+    .contato .title h2{
+      color: #fff;
+      font-weight: 500;
+    }
 
-.contato .title{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2em;
-}
+    .box{
+        position: relative;
+    }
 
-.contato .title h2{
-  color: #fff;
-  font-weight: 500;
-}
+    .form{
+        grid-area: form;
+    }
+
+    .info{
+        grid-area: info;
+    }
+
+    .mapa{
+        grid-area: mapa;
+    }
+
+    .contato{
+        padding: 40px;
+        background: #fff;
+    }
+
+    .form{
+        grid-area: form;
+    }
+
+    .info{
+        grid-area: info;
+    }
+
+    .mapa{
+        grid-area: mapa;
+    }
+
+    .contato{
+        padding: 40px;
+        background: #fff;
+        box-shadow: 0 5px 35px rgba(0, 0, 0, 0.15);
+    }
+
+    .box{
+        position: relative;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 5fr 4fr;
+        grid-template-areas: 
+        "form info"
+        "form mapa";
+        grid-gap: 20px;
+        margin-top: 20px;
+    }
+
+    .contato h3{
+        color: #0e3959;
+        font-weight: 500;
+        font-size: 1.4em;
+        margin-bottom: 10px;
+    }
+
+    /* form*/
+    .formbox{
+        position: relative;
+        width: 100%;
+    }
+
+    .formbox .row50{
+        display: flex;
+        gap: 20px;
+    }
+
+    .inputbox{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        width: 50%;
+    }
+
+    .formbox .row50 .inputbox{
+        width: 100%;
+
+    }
+
+    .inputbox span{
+        color: #18b7ff;
+       margin-top: 10px;
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+
+    .inputbox input{
+        padding: 10pz;
+        font-size: 1.1em;
+        outline: none;
+        border: #333;
+    }
+  
+    .inputbox textarea{
+        padding: 10pz;
+        font-size: 1.1em;
+        outline: none;
+        border: #333;
+        resize: none;
+        min-height: 220px;
+        margin-bottom: 10px;
+    }
+
+    .inputbox input [type="submit"] {
+       background: #fff;
+       border: none;
+       font-size: 1.1em;
+       max-width: 500;
+       cursor: pointer;
+       padding: 14px 15px;
+    }
+
+    .inputbox ::placeholder{
+        color: #999;
+    }
+
+    /info/
+    .info{
+        background: #0e3959;
+    }
+
+    .info h3{
+        color: #fff;
+    }
+
+    .info .infobox div{
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .info .infobox div span{
+        min-width: 40px;
+        height: 40px;
+        color: #fff;
+        background: #18b7ff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+        border-radius: 50%;
+        margin-right: 15px;
+    }
+
+    .info .infobox div p{
+        color: #fff;
+        font-size: 1.1em;
+    }
+
+    .info .infobox div a{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .sci{
+        margin-top: 40px;
+        display: flex;
+    }
+
+    .sci li{
+        list-style: none;
+        margin-right: 15px;
+    }
+
+    .sci li a{
+        color: #fff;
+        font-size: 2em;
+        color: #ccc;
+
+    }
+
+    .sci li a:hover{
+        color: #fff;
+    }
+
+    .mapa{
+        padding: 0;
+    }
+
+    .mapa iframe{
+        width: 100%;
+        height: 100%;
+    }
+
+    /responsividade/
+    @media (max-width: 991px){
+        body{
+            background: #03a9f5;
+        }
+
+        .contatos{
+            padding: 20px;
+        }
+
+        .box {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            grid-template-areas:
+                "form"
+                "info"
+                "mapa"
+        }
+
+        .formbox .row50 {
+            display: flex;
+            gap: 0;
+            flex-direction: column;
+        }
+
+        .inputbox{
+            width: 100%;
+        }
+
+        .contato {
+            padding: 30px;
+        }
+
+        .mapa {
+            min-height: 300px;
+            padding: 0;
+        }
+    }
 
 
 
