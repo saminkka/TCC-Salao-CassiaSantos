@@ -31,7 +31,7 @@ main{
 
 .contact-in:nth-child(2) {
 	flex: 45%;
-	background: #c31432;
+	background: #C4C4C4;
 }
 
 .contact-in:nth-child(3) {
@@ -88,7 +88,7 @@ main{
 	width: 30px;
 	height: 30px;
 	text-align: center;
-	background: #fff;
+	background: #f5f5f5;
 	border-radius: 50px;
 }
 
@@ -118,7 +118,7 @@ main{
 }
 
 .contact-in-input::placeholder {
-	color: #de1818;
+	color: #000;
 }
 
 .contact-in-textarea {
@@ -130,14 +130,14 @@ main{
 	padding-top: 5px;
 	padding-left: 5px;
 	background: transparent;
-	color: #fff;
+	color: #fffcfc;
 	font-size: 12px;
 	font-weight: 300;
 	font-family: 'Poppins', sans-serif;
 }
 
 .contact-in-textarea::placeholder {
-	color: #fff;
+	color:#fffcfc;;
 }
 
 .contact-in-btn {
