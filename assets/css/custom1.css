@@ -27,7 +27,7 @@
     overflow: hidden;
     position: relative;
     z-index: 1;
-    background: #8a6d46;
+    background: #C4C4C4;
 }
 
 .pricing .box-container .box::before,
