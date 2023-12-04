@@ -40,12 +40,12 @@
 }
 
 .pricing .box-container .box::before{
-    background: #8C6F56;
+    background: #593E2E;
     top: -10%; left: 80%;
 }
 
 .pricing .box-container .box::after{
-    background: #8C6F56;
+    background:  #593E2E;
     bottom: -10%;  right: 80%;
 }
 
