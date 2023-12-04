@@ -29,7 +29,7 @@
     transform: all 0.2s ease-in;
 }
 
-.card-wrapper: hover{
+.card-wrapper:hover{
     transform: scale(1.1);
 }
 
@@ -38,7 +38,7 @@
     text-align: center;
 }
 
-.card-wrapper: hover .card-header> h2{
+.card-wrapper:hover .card-header> h2{
     transform: scale(1.1);
     color: #5222d0;
     letter-spacing: 2;
@@ -96,44 +96,3 @@
     cursor: pointer;
     transition: all 50ms ease-in;
 }
-
-.card-button: hover {
-    border: 2px solid #ec615b;
-    background-color: transparent;
-    color: #ec615b;
-    font-weight: 800;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
