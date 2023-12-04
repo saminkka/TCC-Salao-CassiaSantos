@@ -26,7 +26,7 @@
     overflow: hidden;
     position: relative;
     z-index: 1;
-    background: #C4C4C4;
+    background: #8C6F56;
 }
 
 .pricing .box-container .box::before,
@@ -40,12 +40,12 @@
 }
 
 .pricing .box-container .box::before{
-    background: #d7c7ae;
+    background: #8C6F56;
     top: -10%; left: 80%;
 }
 
 .pricing .box-container .box::after{
-    background: #d7c7ae;
+    background: #8C6F56;
     bottom: -10%;  right: 80%;
 }
 
